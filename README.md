@@ -4,8 +4,10 @@ The apis I used were from newsapi, new york times api and guardian apis, make su
 
 thats it :)
 
-### `docker build \
+```
+docker build \
   --build-arg NEWS_API_KEY=your_api_key_one \
   --build-arg THE_GUARDIAN_API_KEY=your_api_key_two \
   --build-arg NYTIMES_API_KEY=your_api_key_three \
-  -t big-news .`
+  -t big-news .
+```
